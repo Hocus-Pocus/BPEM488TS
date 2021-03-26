@@ -1,0 +1,198 @@
+
+   ;----------------------------------------------------------------------------
+   ; Indicators
+   ;                 expression,   off-label,    on-label,   off-bg, off-fg, on-bg, on-fg
+   ; NOTE! the colours in the .ini file mean nothing. They are set in designer mode color dialog
+   
+;  "engine" bit field: 
+
+;   indicator = { OFCdelon     }, "OFC Delay Off",     "OFC Delay On",    white, black, green, black
+   indicator = { crank        }, "Not Crank Mode",      "Crank Mode",    white, black, green, black
+   indicator = { run          }, "Not Run Mode",          "Run Mode",    white, black, green, black
+   indicator = { ASEon        }, "ASE off",                 "ASE on",    white, black, green, black
+   indicator = { WUEon        }, "WUE off",                 "WUE on",    white, black, green, black
+   indicator = { TOEon        }, "TOE Enr off",         "TOE Enr on",    white, black, green, black
+   indicator = { OFCon        }, "OFC off",                 "OFC on",    white, black, green, black
+   indicator = { FldClr       }, "Flood Clear off", "Flood Clear on",    white, black, green, black
+      
+;  "PortAbits" bit field:
+
+   indicator = { LoadEEEM     }, "LoadEEEM ON",       "LoadEEEM Off",     white, black, green, black
+   indicator = { Itrimen      }, "Itrimen On",         "Itrimen Off",     white, black, green, black
+   indicator = { Ftrimen      }, "Ftrimen On",         "Ftrimen Off",     white, black, green, black
+   indicator = { AudAlrmSil   }, "AudAlrmSil On",   "AudAlrmSil Off",     white, black, green, black
+   indicator = { OFCen        }, "OFCen On",             "OFCen Off",     white, black, green, black
+   indicator = { OFCdis       }, "OFCdis On",           "OFCdis Off",     white, black, green, black
+;   indicator = { PA6in        }, "PA6in Lo",              "PA6in Hi",     white, black, green, black
+   
+;  "PortBbits" bit field:
+
+   indicator = { FuelPump     }, "Fuel pump Off",     "Fuel pump On",  white, black, green, black
+   indicator = { ASDRelay     }, "ASD Relay Off",     "ASD Relay On",  white, black, green, black
+   indicator = { EngAlarm     }, "EngAlarm Off",       "EngAlarm On",  white, black, green, black
+   indicator = { AIOT         }, "AIOT Off",               "AIOT On",  white, black, green, black
+;   indicator = { PB4out       }, "PB4out Off",           "PB4out On",  white, black, green, black
+;   indicator = { PB5out       }, "PB5out Off",           "PB5out On",  white, black, green, black
+;   indicator = { PB6out       }, "PB6out Off",          " PB6out On",  white, black, green, black
+
+;  "PortKbits" bit field:
+
+   indicator = { LOPalrm      }, "LOPalrm Off",         "LOPalrm On",    white, black, green, black
+;   indicator = { HOTalrm      }, "HOTalrm Off",         "HOTalrm On",    white, black, green, black
+   indicator = { HETalrm      }, "HETalrm Off",         "HETalrm On",    white, black, green, black
+;   indicator = { HEGTalrm     }, "HEGTalrm Off",       "HEGTalrm On",    white, black, green, black
+;   indicator = { HFTalrm      }, "HFTalrm Off",         "HFTalrm On",    white, black, green, black
+   indicator = { LFPalrm      }, "LFPalrm Off",         "LFPalrm On",    white, black, green, black
+   indicator = { HFPalrm      }, "HFPalrm Off",         "HFPalrm On",    white, black, green, black
+   
+;  "PortPbits" bit field:
+
+;   indicator = { Inj1         }, "Inj1 Off",               "Inj1 On",    white, black, green, black
+;   indicator = { Inj2         }, "Inj2 Off",               "Inj2 On",    white, black, green, black
+;   indicator = { Inj3         }, "Inj3 Off",               "Inj3 On",    white, black, green, black
+;   indicator = { Inj4         }, "Inj4 Off",               "Inj4 On",    white, black, green, black
+;   indicator = { Inj5         }, "Inj5 Off",               "Inj5 On",    white, black, green, black
+
+;  "PortTbits" bit field:
+   
+;   indicator = { CMP          }, "CMP Off",                 "CMP On",    white, black, green, black
+;   indicator = { CKP          }, "CKP Off",                 "CKP On",    white, black, green, black
+;   indicator = { VSpd         }, "VSpd Off",               "VSpd On",    white, black, green, black
+;   indicator = { Ign1         }, "Ign1 Off",               "Ign1 On",    white, black, green, black
+;   indicator = { Ign2         }, "Ign2 Off",               "Ign2 On",    white, black, green, black
+;   indicator = { Ign3         }, "Ign3 Off",               "Ign3 On",    white, black, green, black
+;   indicator = { Ign4         }, "Ign4 Off",               "Ign4 On",    white, black, green, black
+;   indicator = { Ign5         }, "Ign5 Off",               "Ign5 On",    white, black, green, black
+   
+;  "engine2" bit field:
+   
+   indicator = { base512      }, "Base 512 Off",       "Base 512 On",    white, black, green, black
+   indicator = { base256      }, "Base 256 Off",       "Base 256 On",    white, black, green, black
+   indicator = { AudAlrm      }, "Aud Alrm On",       "Aud Alrm Off",    white, black, green, black
+   indicator = { TOEduron     }, "TOE Dur Off",         "TOE Dur On",    white, black, green, black
+   
+;  "alarmbits" bit field:
+
+   indicator = { LOP          }, "Oil Prs OK",         "Low Oil Prs",   white, black, green, black
+;   indicator = { HOT          }, "Oil Temp OK",      "High Oil Temp",   white, black, green, black
+   indicator = { HET          }, "CLT Temp OK",      "High Clt Temp",   white, black, green, black
+;   indicator = { HEGT         }, "EXH Temp OK",      "High Exh Temp",   white, black, green, black
+;   indicator = { HFT          }, "Fuel Temp OK",    "High Fuel Temp",   white, black, green, black
+   indicator = { LFP          }, "LO FP OK",          "Low Fuel Prs",   white, black, green, black
+   indicator = { HFP          }, "Hi FP OK",         "High Fuel Prs",   white, black, green, black
+   
+;  "AAoffbits" bit field:
+  
+   indicator = { LOPoff       }, "LOP Alrm OK",       "LOP Alrm Sil",   white, black, green, black
+;   indicator = { HOToff       }, "HOT Alrm OK",       "HOT Alrm Sil",   white, black, green, black
+   indicator = { HEToff       }, "HET Alrm OK",       "HET Alrm Sil",   white, black, green, black
+;   indicator = { HEGToff      }, "HEGT Alrm OK",     "HEGT Alrm Sil",   white, black, green, black
+;   indicator = { HFToff       }, "HFT Alrm OK",       "HFT Alrm Sil",   white, black, green, black
+   indicator = { LFPoff       }, "LFP Alrm OK",       "LFP Alrm Sil",   white, black, green, black
+   indicator = { HFPoff       }, "HFP Alrm OK",       "HFP Alrm Sil",   white, black, green, black
+   
+;  "StateStatus" bit field:
+
+   indicator = { Synch        }, "No Crank Synch",   "Crank Synched",   white, black, green, black
+   indicator = { SynchLost    }, "Synch not lost",      "Synch Lost",   white, black, green, black
+;   indicator = { StateNew     }, "No New State",         "New State",   white, black, green, black
+
+
+[GaugeConfigurations]
+
+;-----------------------------------------------------------------------------------------------
+; Define a gauge's characteristics here, then go to a specific layout
+; block (Tuning or FrontPage) and use the name you've defined here to
+; display that gauge in a particular position.
+;
+; Name  = Case-sensitive, user-defined name for this gauge configuration.
+; Var   = Case-sensitive name of variable to be displayed, see the
+;         OutputChannels block in this file for possible values.
+; Title = Title displayed at the top of the gauge.
+; Units = Units displayed below value on gauge.
+; Lo    = Lower scale limit of gauge.
+; Hi    = Upper scale limit of gauge.
+; LoD   = Lower limit at which danger color is used for gauge background.
+; LoW   = Lower limit at which warning color is used.
+; HiW   = Upper limit at which warning color is used.
+; HiD   = Upper limit at which danger color is used.
+; vd    = Decimal places in displayed value
+; ld    = Label decimal places for display of Lo and Hi, above.
+;-----------------------------------------------------------------------------------------------
+   ;Name               Var            Title                 Units      Lo     Hi     LoD    LoW    HiW   HiD vd ld
+   secHGge         = secH,                    "secH",   "Sec x 255",   0,     255,   -1,    -1,   256,   256, 0, 0
+   secLGge         = secL,                    "secL",     "Seconds",   0,     255,   -1,    -1,   256,   256, 0, 0
+   batAdcGge       = batAdc,                "batAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   BatVGge         = BatVx10,      "Battery Voltage",       "Volts",   0,     20,     8,    -1,    15,    18, 1, 1
+   cltAdcGge       = cltAdc,                "cltAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+#if CELSIUS
+   CltGauge        = CLT,      "Engine Coolant Temp",       "Deg C", -40,     110,  -40,  -40,     95,   100, 1, 1
+#else
+   CltGauge        = CLT,      "Engine Coolant Temp",       "Deg F", -40,     220,  -40,   -40,   205,   215, 1, 1
+   matAdcGge       = matAdc,                "matAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+#if CELSIUS
+   MatGauge        = Matx10,     "Manifold Air Temp",       "Deg C", -40,     110,  -40,  -40,     95,   100, 1, 1
+#else
+   MatGauge        = Matx10,     "Manifold Air Temp",       "Deg F", -40,     220,  -40,   -40,   205,   215, 1, 1
+
+   PAD03inAdcGge   = PAD03inAdc,        "PAD03inAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   mapAdcGge       = mapAdc,                "mapAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   MapGge          = Mapx10, "Manifold Abs Pressure",         "KPA",   0,     105,   -1,    -1,   106,   106, 1, 1
+   tpsADCGge       = tpsADC,                "tpsADC",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   TpsPctGge       = TpsPctx10, "Throttle Position ",           "%",   0,     100,   -1,    -1,   999,   999, 1, 1
+   egoAdc1Gge      = egoAdc1,              "egoADC1",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   afr1Gge         = afr1,        "Air/Fuel Ratio 1",    "Air/Fuel",   7,      23,    9,    10,    20,    22, 1, 1
+   baroAdcGge      = baroAdc,              "baroAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   BaroGge         = Baro,     "Barometric Pressure",         "KPA",   0,     105,   -1,    -1,   106,   106, 1, 1
+   eopAdcGge       = eopAdc,                "eopAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   EopGge          = Eopx10,   "Engine Oil Pressure",         "PSI",   0,    100,    10,    20,   100,   100, 1, 1
+   efpAdcGge       = efpAdc,                "efpAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   EfpGge          = Efpx10,  "Engine Fuel Pressure",         "PSI",   0,    100,    25,    30,    50,    55, 1, 1
+   itrmAdcGge      = itrmAdc,              "itrmAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   ItrmGge         = Itrmx10,       "Ignition Trim ",     "Degrees",   0,      40,   -1,    -1,    41,    41, 0, 0
+   ftrmAdcGge      = ftrmAdc,              "ftrmAdc",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   FtrmGge         = Ftrmx10,           "Fuel Trim ",           "%",  80,     120,   79,    79,   121,   121, 1, 1
+   egoAdc2Gge      = egoAdc2,              "egoADC2",      "Counts",   0,    1023,   -1,    -1,  1024,  1024, 0, 0
+   afr2Gge         = afr2,        "Air/Fuel Ratio 2",    "Air/Fuel",   7,      23,    9,    10,    20,    22, 1, 1
+   CASprd512Gge    = CASprd512,         "CAS Period",      "5.12uS",   0,   65535,   -1,    -1, 65536, 65536, 0, 0
+   CASprd256Gge    = CASprd256,         "CAS Period",      "2.56uS",   0,   65535,   -1,    -1, 65536, 65536, 0, 0
+   VSSprdGge       = VSSprd,            "VSS Period",      "2.56uS",   0,   65535,   -1,    -1, 65536, 65536, 0, 0
+   RPMGge          = RPM,               "Engine RPM",         "RPM",   0,    5000,   -1,    -1,  5001,  5001, 0, 0
+   KPHGge          = KPH,            "Vehicle Speed",         "KPH",   0,     150,   -1,    -1,   151,   151, 1, 1
+   ASEcntGge       = ASEcnt,           "ASE counter",        "Revs",   0,     500,   -1,    -1,   501,   501, 0, 0
+   AFRcurrGge      = AFRcurr,          "AFR Current",    "AIR/FUEL",   8,      25,    9,    10,    20,    22, 1, 1
+   VEcurrGge       = VEcurr,            "VE Current",           "%",   0,     150,   -1,    -1,   151,   151, 1, 1
+   barocorGge      = barocor,             "Baro Cor",           "%",  80,     120,   -1,    -1,   121,   121, 1, 1
+   matcorGge       = matcor                "MAT Cor",           "%",  70,     130,   -1,    -1,   131,   131, 1, 1
+   WUEcorGge       = WUEcor,               "WUE Cor",           "%", 100,     250,   -1,    -1,   251,   251, 1, 1
+   ASEcorGge       = ASEcor,               "ASE Cor",           "%",   0,      55,   -1,    -1,    55,    55, 1, 1
+   WUEandASEcorGge = WUEandASEcor,   "WUEandASE Cor",           "%",   0,     250,   -1,    -1,   251,   251, 1, 1
+   CrankcorGge     = Crankcor,            "Crankcor",           "%", 100,     350,   -1,    -1,   351,   351, 1, 1
+   TPSdotGge       = TPSdot,                "tpsDOT",      " %/Sec",   0,     600,   -1,    -1,   601,   601, 0, 0 
+   TpsDOTcorGge    = TpsDOTcor,          "TpsDOTcor",           "%",   0,      60,   -1,    -1,    61,    61, 0, 0
+   ColdAddpctGge   = ColdAddpct,        "ColdAddpct",           "%",   0,      50,   -1,    -1,    51,    51, 0, 0
+   ColdMulpctGge   = ColdMulpct,        "ColdMulpct",           "%",   0,     255,   -1,    -1,   256,   256, 0, 0
+   TOEpctGge       = TOEpct,               "TOE pct",           "%",   0,      75,   -1,    -1,    76,    76, 0, 0 
+   TOEpwGge        = TOEpw,                 "TOE PW",        "mSec",   0,      51,   -1,    -1,    52,    52, 1, 1
+   PWlessTOEGge    = PWlessTOE,          "PWlessTOE",        "mSec",   0,     100,   -1,    -1,   101,   101, 1, 1
+   DeadbandGge     = Deadband,            "Deadband",        "mSec",   0,       2,   -1,    -1,     3,     3, 1, 1
+   PrimePWGge      = PrimePW,             "Prime PW",        "mSec",   0,      70,   -1,    -1,    71,    71, 1, 1
+   CrankPWGge      = CrankPW,             "Crank PW",        "mSec",   0,      70,   -1,    -1,    71,    71, 1, 1
+   FDpwGge         = FDpw,        "Fuel Delivery PW",        "mSec",   0,      70,   -1,    -1,    71,    71, 1, 1
+   PWGge           = PW,       "Injector Pulsewidth",        "mSec",   0,      70,   -1,    -1,    71,    71, 1, 1
+   LpHGge          = LpH,                      "LpH",            "",   0,     100,   -1,    -1, 65536, 65536, 1, 1
+   FDsecGge        = FDsec,      "FD total mSec/Sec",        "mSec",   0,   65535,   -1,    -1, 65536, 65536, 1, 1
+   GearCurGge      = GearCur,         "Current Gear",            "",   0,      5 ,   -1,    -1,   256,   256, 0, 0
+   TOEdurCntGge    = TOEdurCnt,       "TOE duration",  "100mS cnts",   0,      50,   -1,    -1,    51,    51, 0, 0
+   STcurrGge       = STcurr,            "ST Current",         "Deg",   0,      50,   -1,    -1,    51,    51, 1, 1
+   KmpLGge         = KmpL,                    "KmpL",        "KmpL",   0,      20,   -1,    -1, 65536, 65536, 1, 1
+   DwellCorGge     = DwellCor,    "Dwell Correction",           "%",   0,     500,   -1,    -1,   501,   501, 1, 1
+   DwellFinGge     = DwellFin,            "DwellFin",         "mSec",  0,      50,   -1,    -1,    51,    51, 1, 1
+   AdvanceGge      = Advance,        "Spark Advance",         "Deg",   0,      65,   -1,    -1,    66,    66, 1, 1   
+   LoopTimeGge     = LoopTime,    "Loops per Second",       "Loops",   0,   65535,   -1,    -1, 65535, 65535, 0, 0
+   DutyCycleGge    = DutyCyclex10,       "DutyCycle",           "%",   0,     100,   -1,    -1,   101,   101, 1, 1
+   TestValwGge     = TestValw,            "TestValw",            "",   0,   65535,   -1,    -1, 65535, 65535, 0, 0
+   testValbGge     = testValb,            "testValb",            "",   0,   65535,   -1,    -1, 65535, 65535, 0, 0
+   FDtGge          = FDt,            "FD total mSec",        "mSec",   0,   65535,   -1,    -1, 65536, 65536, 1, 1
+   MpGGge          = MpG,                    "MpG",           "MpG",   0,      40,   -1,    -1, 65536, 65536, 1, 1
+

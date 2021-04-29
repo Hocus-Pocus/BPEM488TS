@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <dsh xmlns="http://www.EFIAnalytics.com/:dsh">
-<bibliography author="TunerStudio 3.1.05 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2021, All Rights Reserved." writeDate="Tue Jan 05 20:03:41 PST 2021"/>
+<bibliography author="TunerStudio 3.1.05 - EFI Analytics - support@efianalytics.com" company="EFI Analytics, © 2007 - 2021, All Rights Reserved." writeDate="Tue Apr 20 15:54:36 PDT 2021"/>
 <versionInfo fileFormat="3.0" firmwareSignature="MS2Extra comms342h2"/>
 <gaugeCluster antiAliasing="true" backgroundDitherColor="-8355712" clusterBackgroundColor="-16777216" clusterBackgroundImageFileName="" clusterBackgroundImageStyle="Tile" forceAspect="false" forceAspectHeight="9.0" forceAspectWidth="16.0">
 <dashComp type="Gauge">
-<Value type="double">1994.0</Value>
-<Dirty type="boolean">false</Dirty>
+<Value type="double">1652.0</Value>
 <Title type="String">Engine RPM</Title>
-<Max type="double">5000.0</Max>
-<MaxVP type="ValueProvider">5000.0</MaxVP>
-<Min type="double">0.0</Min>
-<MinVP type="ValueProvider">0.0</MinVP>
-<Units type="String">RPM</Units>
+<Dirty type="boolean">true</Dirty>
 <FontSizeAdjustment type="int">0</FontSizeAdjustment>
 <HighCriticalVP type="ValueProvider">65536.0</HighCriticalVP>
-<HistoricalPeakValue type="double">2002.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">1662.0</HistoricalPeakValue>
 <NeedleImageFileName type="String">null</NeedleImageFileName>
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
@@ -32,7 +27,7 @@
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DefaultMax type="double">5000.0</DefaultMax>
 <DefaultMin type="double">0.0</DefaultMin>
-<DisplayValue type="String">1994</DisplayValue>
+<DisplayValue type="String">1652</DisplayValue>
 <FaceAngle type="int">360</FaceAngle>
 <FontColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</FontColor>
 <GaugePainter type="GaugePainter">Circle Analog Gauge</GaugePainter>
@@ -50,7 +45,7 @@
 <MinorTicks type="double">-1.0</MinorTicks>
 <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
 <ShortestSize type="int">135</ShortestSize>
-<SmoothedValue type="double">1994.0</SmoothedValue>
+<SmoothedValue type="double">1652.0</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
@@ -59,15 +54,21 @@
 <WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">false</ShowHistory>
-<Value type="double">1994.0</Value>
-<Dirty type="boolean">false</Dirty>
+<Max type="double">5000.0</Max>
+<MaxVP type="ValueProvider">5000.0</MaxVP>
+<Min type="double">0.0</Min>
+<MinVP type="ValueProvider">0.0</MinVP>
+<Units type="String">RPM</Units>
+<Value type="double">1652.0</Value>
+<Dirty type="boolean">true</Dirty>
 <OutputChannel type="String">RPM</OutputChannel>
 <LongClickAction type="String">null</LongClickAction>
 <ShortClickAction type="String">null</ShortClickAction>
 <Id type="String"/>
-<Dirty type="boolean">false</Dirty>
+<Dirty type="boolean">true</Dirty>
 <EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
+<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 <RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.0</RelativeX>
 <RelativeY type="double">0.002421307506053269</RelativeY>
@@ -76,20 +77,14 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 </dashComp>
 <dashComp type="Gauge">
-<Value type="double">38.400000000000006</Value>
-<Dirty type="boolean">false</Dirty>
+<Value type="double">66.9</Value>
 <Title type="String">Manifold Abs Pressure</Title>
-<Max type="double">105.0</Max>
-<MaxVP type="ValueProvider">105.0</MaxVP>
-<Min type="double">0.0</Min>
-<MinVP type="ValueProvider">0.0</MinVP>
-<Units type="String">KPA</Units>
+<Dirty type="boolean">false</Dirty>
 <FontSizeAdjustment type="int">0</FontSizeAdjustment>
 <HighCriticalVP type="ValueProvider">65535.0</HighCriticalVP>
-<HistoricalPeakValue type="double">38.400000000000006</HistoricalPeakValue>
+<HistoricalPeakValue type="double">66.9</HistoricalPeakValue>
 <NeedleImageFileName type="String">null</NeedleImageFileName>
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
@@ -107,7 +102,7 @@
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DefaultMax type="double">105.0</DefaultMax>
 <DefaultMin type="double">0.0</DefaultMin>
-<DisplayValue type="String">38.4</DisplayValue>
+<DisplayValue type="String">66.9</DisplayValue>
 <FaceAngle type="int">360</FaceAngle>
 <FontColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</FontColor>
 <GaugePainter type="GaugePainter">Circle Analog Gauge</GaugePainter>
@@ -125,7 +120,7 @@
 <MinorTicks type="double">-1.0</MinorTicks>
 <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
 <ShortestSize type="int">135</ShortestSize>
-<SmoothedValue type="double">38.400000000000006</SmoothedValue>
+<SmoothedValue type="double">66.9</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
@@ -134,7 +129,12 @@
 <WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">false</ShowHistory>
-<Value type="double">38.400000000000006</Value>
+<Max type="double">105.0</Max>
+<MaxVP type="ValueProvider">105.0</MaxVP>
+<Min type="double">0.0</Min>
+<MinVP type="ValueProvider">0.0</MinVP>
+<Units type="String">KPA</Units>
+<Value type="double">66.9</Value>
 <Dirty type="boolean">false</Dirty>
 <OutputChannel type="String">Map</OutputChannel>
 <LongClickAction type="String">null</LongClickAction>
@@ -143,6 +143,7 @@
 <Dirty type="boolean">false</Dirty>
 <EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
+<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 <RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.5</RelativeX>
 <RelativeY type="double">0.002421307506053269</RelativeY>
@@ -151,20 +152,14 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 </dashComp>
 <dashComp type="Gauge">
-<Value type="double">54.300000000000004</Value>
-<Dirty type="boolean">false</Dirty>
+<Value type="double">61.1</Value>
 <Title type="String">VE Current</Title>
-<Max type="double">150.0</Max>
-<MaxVP type="ValueProvider">150.0</MaxVP>
-<Min type="double">0.0</Min>
-<MinVP type="ValueProvider">0.0</MinVP>
-<Units type="String">%</Units>
+<Dirty type="boolean">false</Dirty>
 <FontSizeAdjustment type="int">0</FontSizeAdjustment>
 <HighCriticalVP type="ValueProvider">151.0</HighCriticalVP>
-<HistoricalPeakValue type="double">54.400000000000006</HistoricalPeakValue>
+<HistoricalPeakValue type="double">61.2</HistoricalPeakValue>
 <NeedleImageFileName type="String">null</NeedleImageFileName>
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
@@ -182,7 +177,7 @@
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DefaultMax type="double">150.0</DefaultMax>
 <DefaultMin type="double">0.0</DefaultMin>
-<DisplayValue type="String">54.3</DisplayValue>
+<DisplayValue type="String">61.1</DisplayValue>
 <FaceAngle type="int">360</FaceAngle>
 <FontColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</FontColor>
 <GaugePainter type="GaugePainter">Circle Analog Gauge</GaugePainter>
@@ -200,7 +195,7 @@
 <MinorTicks type="double">-1.0</MinorTicks>
 <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
 <ShortestSize type="int">135</ShortestSize>
-<SmoothedValue type="double">54.300000000000004</SmoothedValue>
+<SmoothedValue type="double">61.1</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
@@ -209,7 +204,12 @@
 <WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">false</ShowHistory>
-<Value type="double">54.300000000000004</Value>
+<Max type="double">150.0</Max>
+<MaxVP type="ValueProvider">150.0</MaxVP>
+<Min type="double">0.0</Min>
+<MinVP type="ValueProvider">0.0</MinVP>
+<Units type="String">%</Units>
+<Value type="double">61.1</Value>
 <Dirty type="boolean">false</Dirty>
 <OutputChannel type="String">VEcurr</OutputChannel>
 <LongClickAction type="String"/>
@@ -218,6 +218,7 @@
 <Dirty type="boolean">false</Dirty>
 <EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
+<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 <RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.0</RelativeX>
 <RelativeY type="double">0.33414634146341465</RelativeY>
@@ -226,17 +227,11 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 </dashComp>
 <dashComp type="Gauge">
 <Value type="double">100.0</Value>
-<Dirty type="boolean">false</Dirty>
 <Title type="String">Fuel Trim </Title>
-<Max type="double">120.0</Max>
-<MaxVP type="ValueProvider">120.0</MaxVP>
-<Min type="double">80.0</Min>
-<MinVP type="ValueProvider">80.0</MinVP>
-<Units type="String">%</Units>
+<Dirty type="boolean">false</Dirty>
 <FontSizeAdjustment type="int">0</FontSizeAdjustment>
 <HighCriticalVP type="ValueProvider">121.0</HighCriticalVP>
 <HistoricalPeakValue type="double">100.0</HistoricalPeakValue>
@@ -284,6 +279,11 @@
 <WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">false</ShowHistory>
+<Max type="double">120.0</Max>
+<MaxVP type="ValueProvider">120.0</MaxVP>
+<Min type="double">80.0</Min>
+<MinVP type="ValueProvider">80.0</MinVP>
+<Units type="String">%</Units>
 <Value type="double">100.0</Value>
 <Dirty type="boolean">false</Dirty>
 <OutputChannel type="String">Ftrmx10</OutputChannel>
@@ -293,6 +293,7 @@
 <Dirty type="boolean">false</Dirty>
 <EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
+<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 <RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.5034013605442177</RelativeX>
 <RelativeY type="double">0.33414634146341465</RelativeY>
@@ -301,20 +302,14 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 </dashComp>
 <dashComp type="Gauge">
-<Value type="double">15.0</Value>
-<Dirty type="boolean">false</Dirty>
+<Value type="double">13.0</Value>
 <Title type="String">Air/Fuel Ratio</Title>
-<Max type="double">25.0</Max>
-<MaxVP type="ValueProvider">25.0</MaxVP>
-<Min type="double">8.0</Min>
-<MinVP type="ValueProvider">8.0</MinVP>
-<Units type="String">Air/Fuel</Units>
+<Dirty type="boolean">false</Dirty>
 <FontSizeAdjustment type="int">0</FontSizeAdjustment>
 <HighCriticalVP type="ValueProvider">22.0</HighCriticalVP>
-<HistoricalPeakValue type="double">15.0</HistoricalPeakValue>
+<HistoricalPeakValue type="double">13.0</HistoricalPeakValue>
 <NeedleImageFileName type="String">null</NeedleImageFileName>
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
@@ -332,7 +327,7 @@
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DefaultMax type="double">25.0</DefaultMax>
 <DefaultMin type="double">8.0</DefaultMin>
-<DisplayValue type="String">15.00</DisplayValue>
+<DisplayValue type="String">13.00</DisplayValue>
 <FaceAngle type="int">360</FaceAngle>
 <FontColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</FontColor>
 <GaugePainter type="GaugePainter">Circle Analog Gauge</GaugePainter>
@@ -350,7 +345,7 @@
 <MinorTicks type="double">-1.0</MinorTicks>
 <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
 <ShortestSize type="int">135</ShortestSize>
-<SmoothedValue type="double">15.0</SmoothedValue>
+<SmoothedValue type="double">13.0</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
@@ -359,7 +354,12 @@
 <WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">false</ShowHistory>
-<Value type="double">15.0</Value>
+<Max type="double">25.0</Max>
+<MaxVP type="ValueProvider">25.0</MaxVP>
+<Min type="double">8.0</Min>
+<MinVP type="ValueProvider">8.0</MinVP>
+<Units type="String">Air/Fuel</Units>
+<Value type="double">13.0</Value>
 <Dirty type="boolean">false</Dirty>
 <OutputChannel type="String">afr1</OutputChannel>
 <LongClickAction type="String">null</LongClickAction>
@@ -368,6 +368,7 @@
 <Dirty type="boolean">false</Dirty>
 <EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
+<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 <RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.0</RelativeX>
 <RelativeY type="double">0.6682808716707022</RelativeY>
@@ -376,20 +377,14 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 </dashComp>
 <dashComp type="Gauge">
-<Value type="double">186.5</Value>
-<Dirty type="boolean">false</Dirty>
+<Value type="double">82.7</Value>
 <Title type="String">Engine Coolant Temp</Title>
-<Max type="double">220.0</Max>
-<MaxVP type="ValueProvider">220.0</MaxVP>
-<Min type="double">-40.0</Min>
-<MinVP type="ValueProvider">-40.0</MinVP>
-<Units type="String">Deg F</Units>
+<Dirty type="boolean">false</Dirty>
 <FontSizeAdjustment type="int">0</FontSizeAdjustment>
 <HighCriticalVP type="ValueProvider">215.0</HighCriticalVP>
-<HistoricalPeakValue type="double">186.5</HistoricalPeakValue>
+<HistoricalPeakValue type="double">82.7</HistoricalPeakValue>
 <NeedleImageFileName type="String">null</NeedleImageFileName>
 <NeedleSmoothing type="int">1</NeedleSmoothing>
 <RelativeBorderWidth2 type="double">NaN</RelativeBorderWidth2>
@@ -407,7 +402,7 @@
 <CriticalColor alpha="255" blue="0" green="0" red="255" type="Color">-65536</CriticalColor>
 <DefaultMax type="double">220.0</DefaultMax>
 <DefaultMin type="double">-40.0</DefaultMin>
-<DisplayValue type="String">186.5</DisplayValue>
+<DisplayValue type="String">82.7</DisplayValue>
 <FaceAngle type="int">360</FaceAngle>
 <FontColor alpha="255" blue="0" green="0" red="0" type="Color">-16777216</FontColor>
 <GaugePainter type="GaugePainter">Circle Analog Gauge</GaugePainter>
@@ -425,7 +420,7 @@
 <MinorTicks type="double">-1.0</MinorTicks>
 <NeedleColor alpha="255" blue="102" green="0" red="0" type="Color">-16777114</NeedleColor>
 <ShortestSize type="int">135</ShortestSize>
-<SmoothedValue type="double">186.5</SmoothedValue>
+<SmoothedValue type="double">82.7</SmoothedValue>
 <StartAngle type="int">0</StartAngle>
 <SweepAngle type="int">300</SweepAngle>
 <TrimColor alpha="255" blue="122" green="105" red="105" type="Color">-9868934</TrimColor>
@@ -434,7 +429,12 @@
 <WarnColor alpha="255" blue="0" green="255" red="255" type="Color">-256</WarnColor>
 <PegLimits type="boolean">true</PegLimits>
 <ShowHistory type="boolean">false</ShowHistory>
-<Value type="double">186.5</Value>
+<Max type="double">220.0</Max>
+<MaxVP type="ValueProvider">220.0</MaxVP>
+<Min type="double">-40.0</Min>
+<MinVP type="ValueProvider">-40.0</MinVP>
+<Units type="String">Deg F</Units>
+<Value type="double">82.7</Value>
 <Dirty type="boolean">false</Dirty>
 <OutputChannel type="String">CLT</OutputChannel>
 <LongClickAction type="String"/>
@@ -443,6 +443,7 @@
 <Dirty type="boolean">false</Dirty>
 <EcuConfigurationName type="String"/>
 <FontFamily type="String"/>
+<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 <RelativeWidth type="double">0.497</RelativeWidth>
 <RelativeX type="double">0.5</RelativeX>
 <RelativeY type="double">0.6682926829268293</RelativeY>
@@ -451,7 +452,6 @@
 <ItalicFont type="boolean">false</ItalicFont>
 <MustPaint type="boolean">true</MustPaint>
 <RunDemo type="boolean">false</RunDemo>
-<RelativeHeight type="double">0.3303333333333333</RelativeHeight>
 </dashComp>
 </gaugeCluster>
 </dsh>
